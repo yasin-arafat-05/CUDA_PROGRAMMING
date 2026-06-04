@@ -1,0 +1,138 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+
+# =========================
+# CUDA / NVCC Build Outputs
+# =========================
+
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+
+# CUDA-specific intermediate files
+*.cubin
+*.fatbin
+*.ptx
+*.gpu
+*.cudafe*
+*.ii
+*.module_id
+*.reg.c
+*.reg.cpp
+
+# Profiling and debugging outputs
+*.nsys-rep
+*.qdrep
+*.sqlite
+*.nvprof
+*.prof
+
+# Core dumps
+core
+core.*
+
+# =========================
+# CMake
+# =========================
+
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+Makefile
+
+# =========================
+# Ninja
+# =========================
+
+.ninja_deps
+.ninja_log
+
+# =========================
+# Visual Studio
+# =========================
+
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/
+
+# Optional: keep shared workspace settings
+# !.vscode/settings.json
+# !.vscode/tasks.json
+# !.vscode/launch.json
+
+# =========================
+# CLion / JetBrains
+# =========================
+
+.idea/
+*.iml
+
+# =========================
+# Linux/macOS Temporary Files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# Environment Files
+# =========================
+
+.env
+.env.*
+
+# =========================
+# Testing / Coverage
+# =========================
+
+coverage/
+*.gcda
+*.gcno
+*.gcov
+
+# =========================
+# Python (if used for CUDA tooling)
+# =========================
+
+__pycache__/
+*.pyc
+.venv/
+venv/
