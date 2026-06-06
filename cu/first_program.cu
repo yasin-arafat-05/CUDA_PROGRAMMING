@@ -52,6 +52,17 @@ __global__ void coalescedMatMul(float *d_M,float *d_N, float *d_P, int width){
 
 }
 
+//--------------------------Matrix Multipication with tiling----------------
+/*
+if(row<width && col<width){ // this run for each thread, (width*width)
+    for() // inside this we have a loop 
+    total: (width*width*width) = O(width^3) 
+*/
+__global__ void tailedMatMul(float *d_M,float *d_N, float *d_P, int width){
+    
+    
+}
+
 
 // -----------------------Matrix Multiplication in CPU----------------------
 __host__ void matmulOnHost(float *A, float *B,float *ans, int width){
